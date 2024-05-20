@@ -13,22 +13,37 @@ export default function Contact(){
       </header>
       
       <section className="blurbs">
-        <div className="blurb1">
-        
-          <h2>Location</h2>
-          <p>Zomba, University Of Malawi.</p>
+
+        <div className="contactdetails">
+            <h2>Get In Touch</h2>
+            <address>
+                <strong>Email: helpcentre@cherry.com</strong>
+                <br />
+                <br />
+                <p>
+                    <strong>Phone:+265 (0) 999 444 300</strong>
+                </p>
+            </address>
+            <p>Feel free to contact us for an problems your are facing on the platform. To know how to navigate throu</p>
+
         </div>
-        <div className="blurb2">
-    
-          <h2>Phone Number</h2>
-          <p>+265 (0) 999 34 100</p>
-          <p>+265 (0) 888 34 100</p>
-        </div>
-        <div className="blurb3">
-        
-          <h2>Email Addresses</h2>
-          <p>sales@cherry.com</p>
-          <p>help@cherry.com</p>
+
+        <div className="contact-form-container">
+            <form className="contact-form">
+                <input type="text" placeholder="Full Name" name="user_name" required/>
+                <br />
+                <br />
+                <input type="email" placeholder="Email" name="user_email" required/>
+                <br />
+                <br />
+                <input type="text" placeholder="Subject" name="subject" required/>
+                <br />
+                <br />
+                <textarea placeholder="Type your message" name="message" cols="30" rows="10" />
+                <br />
+                <br />
+                <button type="submit">Send Message</button>
+            </form>
         </div>
       </section>
     </div>

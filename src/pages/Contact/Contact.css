@@ -30,45 +30,53 @@
   .blurbs {
     display: flex;
     justify-content: space-between;
-    margin-top: 0%;
-    padding-top: 7cap;
-    padding-bottom: 10cap;
-    padding-left: 10cap;
-    padding-right: 10cap;
-    background-color: black;
+    
   }
   
-  .blurb1 {
-    flex: 1;
-    margin:  10px;
-    padding: 20px;
-    border: 2cap;
-    border: 3px solid #25D366;
-    text-align: center;
-    color: #25D366;
-  }
+.contactdetails{
+    padding-right: 4cap;
+}
 
-  .blurb2 {
-    flex: 1;
-    margin:  10px;
-    padding: 20px;
-    border: 2cap;
-    border: 3px solid #ADD8E6;
-    text-align: center;
-    color: #ADD8E6;
-  }
+h2{
+    font-size: 3.5ch;
+}
 
-  .blurb3 {
-    flex: 1;
-    margin:  10px;
+
+.contact-form-container {
+    background-color: #fff;
     padding: 20px;
-    border: 2cap;
-    border: 3px solid #FF7F7F;
-    text-align: center;
-    color: #FF7F7F;
-  }
-  
-  .icon {
-    font-size: 24px;
-    margin-bottom: 10px;
-  }
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 100%;
+    max-width: 400px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.contact-form button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #218838;
+}
