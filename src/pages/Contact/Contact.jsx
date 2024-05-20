@@ -12,17 +12,17 @@ export default function Contact(){
       </header>
       
       <section className="blurbs">
-        <div className="blurb">
+        <div className="blurb1">
           <i className="fas fa-comments icon"></i>
           <h2>Click to Chat</h2>
           <p>Have a quick question? Chat with our support team instantly.</p>
         </div>
-        <div className="blurb">
+        <div className="blurb2">
           <i className="fas fa-phone icon"></i>
           <h2>Call to Call</h2>
           <p>Prefer to speak with us directly? Give us a call.</p>
         </div>
-        <div className="blurb">
+        <div className="blurb3">
           <i className="fas fa-envelope icon"></i>
           <h2>Click to Mail</h2>
           <p>Send us an email, and we'll get back to you as soon as possible.</p>

@@ -4,10 +4,11 @@
   }
   
   .welcome{
-    text-align: center;
+    text-align: left;
     color: white;
-    padding-top: 12%;
+    padding-top: 15%;
     padding-bottom: 12%;
+    padding-left: 10cap;
     margin-top: 1%;
     background-size: cover;
     background-position: center;
@@ -29,15 +30,42 @@
   .blurbs {
     display: flex;
     justify-content: space-between;
+    margin-top: 0%;
+    padding-top: 7cap;
+    padding-bottom: 10cap;
+    padding-left: 10cap;
+    padding-right: 10cap;
+    background-color: black;
   }
   
-  .blurb {
+  .blurb1 {
     flex: 1;
-    margin: 0 10px;
+    margin:  10px;
     padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    border: 2cap;
+    border: 3px solid #25D366;
     text-align: center;
+    color: #25D366;
+  }
+
+  .blurb2 {
+    flex: 1;
+    margin:  10px;
+    padding: 20px;
+    border: 2cap;
+    border: 3px solid #ADD8E6;
+    text-align: center;
+    color: #ADD8E6;
+  }
+
+  .blurb3 {
+    flex: 1;
+    margin:  10px;
+    padding: 20px;
+    border: 2cap;
+    border: 3px solid #FF7F7F;
+    text-align: center;
+    color: #FF7F7F;
   }
   
   .icon {
