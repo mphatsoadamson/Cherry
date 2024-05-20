@@ -1,0 +1,41 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(22, 22, 22, 0.911);
+    border-radius: 2cm;
+    padding-left: 4cap;
+    padding-right: 4cap;
+
+}
+
+.logo{
+    font-size: 1.5rem;
+    color: red;
+    font-weight: 900;
+}
+
+ul{
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+
+}
+
+ul li{
+    margin-left: 2rem;
+    cursor: pointer;
+}
+
+.links:hover{
+    font-weight: 400;
+}
+
+.links{
+    text-decoration: none;
+    margin-left: 2rem;
+    cursor: pointer;
+    color: antiquewhite;
+}
