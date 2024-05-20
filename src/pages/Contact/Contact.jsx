@@ -3,6 +3,7 @@ import './Contact.css'
 import backgroundImage from './assets/resized.jpg';
 
 
+
 export default function Contact(){
     return(
         <div className="container">
@@ -13,19 +14,21 @@ export default function Contact(){
       
       <section className="blurbs">
         <div className="blurb1">
-          <i className="fas fa-comments icon"></i>
-          <h2>Click to Chat</h2>
-          <p>Have a quick question? Chat with our support team instantly.</p>
+        
+          <h2>Location</h2>
+          <p>Zomba, University Of Malawi.</p>
         </div>
         <div className="blurb2">
-          <i className="fas fa-phone icon"></i>
-          <h2>Call to Call</h2>
-          <p>Prefer to speak with us directly? Give us a call.</p>
+    
+          <h2>Phone Number</h2>
+          <p>+265 (0) 999 34 100</p>
+          <p>+265 (0) 888 34 100</p>
         </div>
         <div className="blurb3">
-          <i className="fas fa-envelope icon"></i>
-          <h2>Click to Mail</h2>
-          <p>Send us an email, and we'll get back to you as soon as possible.</p>
+        
+          <h2>Email Addresses</h2>
+          <p>sales@cherry.com</p>
+          <p>help@cherry.com</p>
         </div>
       </section>
     </div>
