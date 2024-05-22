@@ -1,10 +1,11 @@
 .header{
     display: flex;
     justify-content: space-between;
-    background-color: rgba(22, 22, 22, 0.911);
-    border-radius: 2cm;
+    background-color: #0f172a;
     padding-left: 4cap;
     padding-right: 4cap;
+    padding-top: 3cap;
+    padding-bottom: 2cap;
 
 }
 

@@ -1,67 +1,51 @@
 import React from "react";
-import './Contact.css'
-import backgroundImage from './assets/resized.jpg';
-
-
 
 export default function Contact(){
     return(
-        <div className="container">
-      <header className="welcome">
-        <h1>Welcome to Our Contact Page</h1>
-        <p>Need Help? We're Here for You! Get in Touch with Our Support Team</p>
-      </header>
-        
-        <section className="head">Contact Details</section>
+   <div class="flex w-full m-h-screen justify-center item-center">
+      <div class="bg-gray-100 w-full p-8 text-black">
+        <div class="flex flex-col justify between m-16">
+          <div>
+            <h1 class="font-bold text-4xl tracking-wide">Contact Us</h1>
+            <p class="text-2xl pt-6 font-light">Feel free to contact our support team to ask us of and help or report any problems</p>
+            <address class="mt-6 mb-3">Call: +265(0) 999 100 888</address>
+            <address class="mb-3">Email: help@cherry.com</address>
+            <address class="mb-10">Location: Zomba, University Of Malawi</address>
+          </div>
+          
+          <h1 class="font-bold text-3xl tracking-wide my-5">Fill In Quick Form</h1>
 
-      <section className="blurbs">
-        <div className="blurb1">
-          <h2>Location</h2>
-          <address><strong>Zomba, University Of Malawi</strong></address>
-        </div>
-        <div className="blurb2">
-          <h2>Phone Number</h2>
-          <address>
-            <strong>+265 (0) 999 100 888</strong>
-            <br />
-            <strong>+265 (0) 888 100 888</strong>
-          </address>
-        </div>
-        <div className="blurb3">
-          <h2>Email Address</h2>
-          <address>
-            <strong>admin@cherryUnima.com</strong>
-            <br />
-            <strong>helpcentre@cherryUnima.com</strong>
-          </address>
-        </div>
-      </section>
-      
-      <section className="cform">
+          <div class="bg-white rounded-xl shadow-lg p-8 text-gray-600">
+            <form class="flex flex-col space-y-4">
+              <div>
+                <label class="text-small">Your full name</label>
+            
+                <input type="text" placeholder="Enter full name" class="ring-1 ring-gray-300 w-full rounded-md p-4 mt-2"></input>
+              </div>
+              <div>
+                <label class="text-small">Your Email Address</label>
+              
+                <input type="text" placeholder="Enter your email address" class="ring-1 ring-gray-300 w-full rounded-md p-4 mt-2"></input>
+              </div>
+              <div>
+                <label class="text-small">Subject</label>
+              
+                <input type="text" placeholder="Enter your subject" class="ring-1 ring-gray-300 w-full rounded-md p-4 mt-2"></input>
+              </div>
+              <div>
+                <label class="text-small">Your Email Address</label>
+              
+                <textarea placeholder="Enter your email address" rows="4" class="ring-1 ring-gray-300 w-full rounded-md p-4 mt-2"></textarea>
+              </div>
+              <button className='inline-block self-end bg-red-600 hover:bg-blue-900 text-white font-bold rounded-lg py-4 px-4'>SEND MESSAGE</button>
 
-        <div className="contactdetails">
-            <h2>Get In Touch</h2>
-
-        </div>
-
-        <div className="contact-form-container">
-            <form className="contact-form">
-                <input type="text" placeholder="Full Name" name="user_name" required/>
-                <br />
-                <br />
-                <input type="email" placeholder="Email" name="user_email" required/>
-                <br />
-                <br />
-                <input type="text" placeholder="Subject" name="subject" required/>
-                <br />
-                <br />
-                <textarea placeholder="Type your message" name="message" cols="30" rows="10" />
-                <br />
-                <br />
-                <button type="submit">Send Message</button>
             </form>
+          
+          </div>
+
         </div>
-      </section>
-    </div>
+
+      </div>
+   </div>
     )
 }
