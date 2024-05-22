@@ -10,6 +10,7 @@ import Login from './pages/Login/Login';
 import Cart from './pages/Cart/Cart';
 import Contact from './pages/Contact/Contact';
 import CreateAccount from './pages/CreateAccount/CreateAccount';
+import UserProfile from './pages/UserProfile/UserProfile';
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
           <Route path='Login' element={<Login/>}/>
           <Route path='Contact' element={<Contact/>}/>
           <Route path='CreateAccount' element={<CreateAccount/>}/>
+          <Route path='UserProfile' element={<UserProfile/>}/>
         </Routes>
       
     </div>

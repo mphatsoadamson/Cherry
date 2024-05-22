@@ -13,6 +13,7 @@ export default function Header(){
                 <li><NavLink to="Contact" className='links'>Contact</NavLink></li>
                 <li><NavLink to="Login" className='links'>Login</NavLink></li>
                 <li><NavLink to="CreateAccount" className='links'>CreateAccount</NavLink></li>
+                <li><NavLink to="UserProfile" className='links'>UserProfile</NavLink></li>
                 
             </ul>
         </div>
