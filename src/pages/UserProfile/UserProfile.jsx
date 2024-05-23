@@ -1,6 +1,6 @@
 import React from 'react'
 import { useParams } from 'react-router-dom'
-
+import UserSidebar from './UserSidebar'
 import img from "./wuglin.jpg"
 
 const UserProfile = () => {
@@ -34,7 +34,7 @@ const UserProfile = () => {
 
             <div className = 'flex justify-center w-full mt-10 mb-40 gap-10'>
                 <div className = 'w-1/5 border border-crimson-300 min-h-[50vh] bg-white shadow-lg rounded-md overflow-hidden '>
-                   
+                <UserSidebar activepage = {activepage} />
                 </div>
                 <div className = 'w-3/5 border border-crimson-300 min-h-[50vh] bg-white shadow-lg rounded-md overflow-hidden'>
                               
