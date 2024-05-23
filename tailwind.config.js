@@ -21,6 +21,9 @@ module.exports = {
       height: {
         '0.25':'0.5px',
       },
+      transitionDuration: {
+        '600': '600ms',
+      },
     },
   },
   plugins: [],
