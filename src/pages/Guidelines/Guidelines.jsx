@@ -61,7 +61,7 @@ export default function Guidelines(){
 
         <section id="contact">
             <h2 className="font-semibold text-[1.6rem] text-left p-2">Contact Us</h2>
-            <p>If you have any questions or need to report an issue, please contact us:</p>
+            <p className="p-1">If you have any questions or need to report an issue, please contact us:</p>
             <ul>
                 <li>Email: help@cherry.com</li>
                 <li>Phone: +265(0) 999 100 888</li>
