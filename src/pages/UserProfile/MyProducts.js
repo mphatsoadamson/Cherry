@@ -3,7 +3,7 @@ import React, {useState} from 'react'
 const MyProducts = () => {
 
     return (
-      <div>Your Products
+      <div>My Products
         
         </div>
   )
