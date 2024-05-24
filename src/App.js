@@ -27,7 +27,7 @@ function App() {
           <Route path='Login' element={<Login/>}/>
           <Route path='Contact' element={<Contact/>}/>
           <Route path='CreateAccount' element={<CreateAccount/>}/>
-          <Route path='UserProfile' element={<UserProfile/>}/>
+          <Route path='UserProfile/:activepage' element={<UserProfile/>}/>
           <Route path='GuideLine' element={<Guidelines/>}/>
           
         </Routes>
