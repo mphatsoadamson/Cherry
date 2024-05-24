@@ -1,0 +1,156 @@
+.welcome p{
+    font-weight: 900;
+    text-align: center;
+    font-size: xx-large;
+    
+}
+
+.welcome span{
+    display: inline;
+    font-weight: 900;
+    text-align: center;
+    font-size: xx-large;
+    transition: tranform 3s;
+    animation: rotate-text 3s linear 3s forwards;
+}
+
+@keyframes rotate-text {
+    0% {
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+
+.offer-promo{
+    text-align: center;
+    padding: 20px;
+}
+.offer-promo h1{
+    margin-bottom: 20px;
+}
+
+.offer-section{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.category{
+    border: 5px solid #3b3a3a;
+    border-radius: 8px;
+    padding: 15px;
+    width: 45%;
+}
+
+.category h2{
+    margin-bottom: 20px;
+}
+
+.category img{
+    width: 100%;
+    height:auto;
+    margin-top: 20px;
+}
+
+button{
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #45a049;
+}
+
+.food-order-container{
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 20px;
+}
+
+.food-order-container h1{
+    margin-bottom: 20px;
+}
+
+.food-images{
+    display: flex;
+    justify-content: space-around;
+}
+
+.food-images{
+    width: 100%;
+    height: 100px;
+    margin: 10px;
+}
+
+.order-button{
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+.category-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.category-item{
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+.category-item img{
+    width: 100%;
+    opacity: 0.7;
+    border-bottom: 5px solid #addd;
+    border-radius: 8px;
+}
+
+.category-link{
+    display: block;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 0;
+    text-align: center;
+}
+.cate-one{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+    border-bottom: 5px solid  rgba(34, 36, 36, 0.867);
+    border-radius: 8px;
+
+}
+.cate-two{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+    border-bottom: 5px solid  rgba(34, 36, 36, 0.867) ;
+    border-radius: 8px;
+
+}
+.cate-three{
+    width: 100%;
+    height: 50%;
+    border-bottom: 5px solid  rgba(34, 36, 36, 0.867);
+    border-radius: 8px;
+
+}
+.cate-four{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+    border-bottom: 5px solid  rgba(34, 36, 36, 0.867);
+    border-radius: 8px;
+}
+.cate-five{
+
+}
