@@ -8,7 +8,7 @@ export default function Header(){
             <p className="logo">Cherry</p>
             <ul>
                 <li><NavLink to="/" className='links'>Home</NavLink></li>
-                <li><NavLink to="Product" className='links'>Product</NavLink></li>
+                <li><NavLink to="ProductCard" className='links'>Product</NavLink></li>
                 <li><NavLink to="Cart" className='links'>Cart</NavLink></li>
                 <li><NavLink to="Contact" className='links'>Contact</NavLink></li>
                 <li><NavLink to="GuideLine" className='links'>GuideLine</NavLink></li>

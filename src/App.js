@@ -5,7 +5,7 @@ import './index.css';
 import Header from './components/Header/Header';
 import Home from './pages/Home/Home';
 import Account from './pages/Account/Account';
-import Products from './pages/Products/Products';
+import ProductCard from './pages/ProductCard/ProductCard';
 import Login from './pages/Login/Login';
 import Cart from './pages/Cart/Cart';
 import Contact from './pages/Contact/Contact';
@@ -22,7 +22,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Home/>}/>
           <Route path='Account' element={<Account/>}/>
-          <Route path='Products' element={<Products/>}/>
+          <Route path='ProductCard' element={<ProductCard/>}/>
           <Route path='Cart' element={<Cart/>}/>
           <Route path='Login' element={<Login/>}/>
           <Route path='Contact' element={<Contact/>}/>
